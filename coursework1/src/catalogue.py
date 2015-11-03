@@ -11,6 +11,10 @@ def artists():
     artists = ['Bugsy Malone', 'Dej Loaf', 'Kano', 'Skepta']
     return render_template('artists.html', artists = artists)
 
+@app.route("/artists/<artist>")
+def get_artist(artist):
+    return render_template('artist_details.html', artist = artist)
+
 @app.route("/albums/")
 def albums():
     return render_template('albums.html')
