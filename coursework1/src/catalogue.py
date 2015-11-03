@@ -9,7 +9,8 @@ def root(name='Test'):
 
 @app.route("/artists/")
 def artists():
-    return "Hello Napier!!! :D"
+    artists = ['Bugsy Malone', 'Dej Loaf', 'Kano', 'Skepta']
+    return render_template('artists.html', artists = artists)
 
 @app.route("/albums/")
 def albums():
