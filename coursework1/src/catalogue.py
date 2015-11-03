@@ -8,7 +8,7 @@ def root():
 
 @app.route("/artists/")
 def artists():
-    artists = ['Bugsy Malone', 'Dej Loaf', 'Kano', 'Skepta']
+    artists = {'Bugsy Malone', 'Dej Loaf', 'Kano', 'Skepta'}
     return render_template('artists.html', artists = artists)
 
 @app.route("/artists/<artist>")
