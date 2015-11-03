@@ -3,9 +3,8 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
-def root(name='Test'):
-    user = name
-    return render_template('hello.html', user=user)
+def root():
+    return render_template('index.html')
 
 @app.route("/artists/")
 def artists():
