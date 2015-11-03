@@ -1,5 +1,6 @@
 {% extends "header.html" %}
 {% block content %}
     <h1>{{ artist }}</h1>
-    {% include artist+'.html' %}
+    artist_details = {{ artist }}.html
+    {% include '%s.html' % artist %}
 {% endblock %}
