@@ -18,7 +18,7 @@ def genres():
     return "Goodbye cruel world :("
 
 @app.route("/tracks/")
-def artists():
+def tracks():
     return "Hello Napier!!! :D"
 
 if __name__ == "__main__": 
