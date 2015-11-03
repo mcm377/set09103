@@ -14,15 +14,15 @@ def artists():
 
 @app.route("/albums/")
 def albums():
-    return "Hello Napier!!! :D"
+    return render_template('albums.html')
 
 @app.route("/genres/")
 def genres():
-    return "Goodbye cruel world :("
+    return render_template('genres.html')
 
 @app.route("/tracks/")
 def tracks():
-    return "Hello Napier!!! :D"
+    return render_template('tracks.html')
 
 if __name__ == "__main__": 
     app.run(host='0.0.0.0', debug=True)
