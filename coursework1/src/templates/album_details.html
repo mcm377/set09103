@@ -1,5 +1,5 @@
 {% extends "header.html" %}
 {% block content %}
     <h1>{{ album }}</h1>
-    {% include u%'albums/%s.html' % album %}
+    {% include 'albums/%s.html'.encode(utf8) % album %}
 {% endblock %}
