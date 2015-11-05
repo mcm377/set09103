@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffc0c942-7477-4d67-b0cb-ee2c8a29dfdf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Avicii.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Calvin Harris.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Clean Bandits.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/David Guetta.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Dej Loaf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Disclosure.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Drake.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/artists/Eri Kitamura.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Gorgon City.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Kano.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/Maroon 5.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coursework1/src/templates/The Killers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/set09103.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coursework1/src/templates/artist_details.html" afterPath="$PROJECT_DIR$/coursework1/src/templates/artist_details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="set09103.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,31 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="catalogue.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="catalogue.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coursework1/src/catalogue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.080935255">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Avicii.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Avicii.html">
+      <file leaf-file-name="Eri Kitamura.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Eri Kitamura.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="artist_details.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artist_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.054945055">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -73,38 +47,18 @@
       <file leaf-file-name="artists.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bugzy Malone.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Bugzy Malone.html">
+      <file leaf-file-name="albums.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/albums.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kano.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Kano.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coursework1/src/templates/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="46" />
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -127,7 +81,6 @@
       <list>
         <option value="$PROJECT_DIR$/coursework1/src/templates/hello.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/header.html" />
-        <option value="$PROJECT_DIR$/coursework1/src/templates/albums.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/genres.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/index.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/tracks.html" />
@@ -135,9 +88,22 @@
         <option value="$PROJECT_DIR$/coursework1/src/templates/busgy_malone.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/Bugsy Malone.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/Bugzy Malone.html" />
-        <option value="$PROJECT_DIR$/coursework1/src/catalogue.py" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/Avicii.html" />
         <option value="$PROJECT_DIR$/coursework1/src/templates/artist_details.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Bugzy Malone.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Avicii.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Calvin Harris.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Clean Bandit.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Drake.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Eri Kitamura.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Gorgon City.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Kano.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Nero.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/Rudimental.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/TRF.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/artists/The Killers.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/templates/albums.html" />
+        <option value="$PROJECT_DIR$/coursework1/src/catalogue.py" />
       </list>
     </option>
   </component>
@@ -149,7 +115,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
+    <option name="x" value="154" />
     <option name="y" value="23" />
     <option name="width" value="1010" />
     <option name="height" value="940" />
@@ -177,6 +143,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,32 +234,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artists" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="set09103" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="set09103" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coursework1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -300,7 +241,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,9 +249,11 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/coursework1/src/templates/artists" />
       <recent name="$PROJECT_DIR$/coursework1/src/templates" />
       <recent name="$PROJECT_DIR$/coursework1/src/static" />
     </key>
@@ -520,30 +462,6 @@
       <option name="number" value="Default" />
       <updated>1446472297518</updated>
     </task>
-    <task id="LOCAL-00001" summary="Edited roots">
-      <created>1446554284258</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1446554284258</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Edited roots tracks()">
-      <created>1446554484399</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1446554484399</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Edited hello.html">
-      <created>1446554745362</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1446554745362</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added test template to catalogue.py">
-      <created>1446554943522</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1446554943523</updated>
-    </task>
     <task id="LOCAL-00005" summary="Edited hello.html&#10;">
       <created>1446555090079</created>
       <option name="number" value="00005" />
@@ -712,50 +630,173 @@
       <option name="project" value="LOCAL" />
       <updated>1446569976015</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added artists details">
+      <created>1446571652285</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1446571652285</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added artists details">
+      <created>1446573863941</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1446573863941</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added artists details">
+      <created>1446573914557</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1446573914557</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added artists details">
+      <created>1446575708269</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1446575708269</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Modified number of artists">
+      <created>1446729530322</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1446729530322</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added artist information: Drake, Eri Kitamura">
+      <created>1446730534846</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1446730534846</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Added artist information: Gorgon City, Kano, Nero">
+      <created>1446731673981</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1446731673981</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Added artist information: Rudimental, The Killers, TRF">
+      <created>1446736775753</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1446736775753</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Changed route for /albums; added album details">
+      <created>1446746608612</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1446746608612</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Changed route for /albums; added album details">
+      <created>1446747480220</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1446747480220</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Changed route for /albums; added album details (changed encoding to utf-8)">
+      <created>1446747957899</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1446747957899</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Changed route for /albums; added album details (changed encoding to utf-16)">
+      <created>1446748152471</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1446748152471</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Changed route for /albums; added album details (changed encoding to utf-8)">
+      <created>1446748317866</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1446748317866</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Changed route for /albums; added album details">
+      <created>1446748393337</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1446748393337</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Changed route for /albums; added album details">
+      <created>1446748522651</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1446748522651</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Changed route for /albums; added album details">
+      <created>1446748720784</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1446748720784</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Changed route for /albums; added album details">
+      <created>1446749034722</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1446749034722</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Changed route for /albums; added album details&#10;Changed encoding&#10;Added unicode objects for special chars">
+      <created>1446749504302</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1446749504327</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Changed route for /albums; added album details&#10;Removed special chars">
+      <created>1446749638186</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1446749638187</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Changed route for /albums; added album details&#10;Removed special chars">
+      <created>1446750084673</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1446750084673</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Changed route for /albums; added album details&#10;Changed encoding/added special chars">
+      <created>1446750310325</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1446750310325</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="23" width="1010" height="940" extended-state="0" />
-    <editor active="false" />
+    <frame x="154" y="23" width="1010" height="940" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21089108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295063" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21089108" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Edited hello.html" />
-    <MESSAGE value="Added test template to catalogue.py" />
-    <MESSAGE value="Edited hello.html&#10;" />
-    <MESSAGE value="Edited artists route and template&#10;" />
-    <MESSAGE value="Edited header template&#10;" />
-    <MESSAGE value="Added list for links to header.html" />
-    <MESSAGE value="Added links to header.html" />
-    <MESSAGE value="Added albums, genres, tracks html files" />
-    <MESSAGE value="Edited routes to point to html templates" />
-    <MESSAGE value="Added static directory for bootstrap" />
-    <MESSAGE value="Added bootstrap" />
     <MESSAGE value="Added bootstrap link to header.html" />
     <MESSAGE value="Added bootstrap template" />
     <MESSAGE value="Added links to navbar" />
@@ -770,7 +811,18 @@
     <MESSAGE value="Renamed artist Bugsy Malone to Bugzy Malone (correcting spelling)" />
     <MESSAGE value="Added artists" />
     <MESSAGE value="Added artists folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added artists folder" />
+    <MESSAGE value="Added artists details" />
+    <MESSAGE value="Modified number of artists" />
+    <MESSAGE value="Added artist information: Drake, Eri Kitamura" />
+    <MESSAGE value="Added artist information: Gorgon City, Kano, Nero" />
+    <MESSAGE value="Added artist information: Rudimental, The Killers, TRF" />
+    <MESSAGE value="Changed route for /albums; added album details (changed encoding to utf-16)" />
+    <MESSAGE value="Changed route for /albums; added album details (changed encoding to utf-8)" />
+    <MESSAGE value="Changed route for /albums; added album details" />
+    <MESSAGE value="Changed route for /albums; added album details&#10;Changed encoding&#10;Added unicode objects for special chars" />
+    <MESSAGE value="Changed route for /albums; added album details&#10;Removed special chars" />
+    <MESSAGE value="Changed route for /albums; added album details&#10;Changed encoding/added special chars" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed route for /albums; added album details&#10;Changed encoding/added special chars" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -780,15 +832,87 @@
     <entry file="file://$PROJECT_DIR$/coursework1/src/catalogue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Avicii.html">
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Calvin Harris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artist_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/catalogue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Calvin Harris.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artist_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/catalogue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -809,18 +933,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Bugzy Malone.html">
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="31" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Kano.html">
+    <entry file="file://$PROJECT_DIR$/coursework1/src/catalogue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artist_details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -837,13 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11278196">
           <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/albums.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -869,50 +1002,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artist_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07326008">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Avicii.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14097744">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Bugzy Malone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16917293">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Calvin Harris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42293233">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Clean Bandit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11278196">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Drake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.084586464">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Gorgon City.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11278196">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Kano.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11278196">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Nero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05639098">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Rudimental.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05639098">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/The Killers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11278196">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/TRF.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02819549">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/albums.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Bugzy Malone.html">
+    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artists/Eri Kitamura.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Kano.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/Avicii.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coursework1/src/catalogue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coursework1/src/templates/artist_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.054945055">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.080935255">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
