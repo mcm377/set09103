@@ -8,7 +8,7 @@ def root():
 
 @app.route("/artists/")
 def artists():
-    artists = ['Avicii', 'Bugzy Malone', 'Calvin Harris', 'Clean Bandit', 'Drake', 'Eri Kitamura', 'Gorgon City', 'Kano', 'The Killers', 'Nero', 'Rudimental', 'TRF']
+    artists = sorted(['Avicii', 'Bugzy Malone', 'Calvin Harris', 'Clean Bandit', 'Drake', 'Eri Kitamura', 'Gorgon City', 'Kano', 'The Killers', 'Nero', 'Rudimental', 'TRF'])
     return render_template('artists.html', artists = artists)
 
 @app.route("/artists/<artist>")
@@ -17,7 +17,12 @@ def get_artist(artist):
 
 @app.route("/albums/")
 def albums():
+    albums = sorted([])
     return render_template('albums.html')
+
+@app.route("/albums/<album>")
+def get_album(album):
+    return render_template('album_details.html', album = album)
 
 @app.route("/genres/")
 def genres():
