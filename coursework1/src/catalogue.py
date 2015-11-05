@@ -8,7 +8,7 @@ def root():
 
 @app.route("/artists/")
 def artists():
-    artists = ['Avicii', 'Bugzy Malone', 'Calvin Harris', 'Clean Bandit', 'Drake', 'Eri Kitamura', 'Gorgon City', 'Kano', 'The Killers', 'Nero', 'Rudamental', 'TRF']
+    artists = ['Avicii', 'Bugzy Malone', 'Calvin Harris', 'Clean Bandit', 'Drake', 'Eri Kitamura', 'Gorgon City', 'Kano', 'The Killers', 'Nero', 'Rudimental', 'TRF']
     return render_template('artists.html', artists = artists)
 
 @app.route("/artists/<artist>")
