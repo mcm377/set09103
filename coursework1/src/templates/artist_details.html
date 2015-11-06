@@ -9,5 +9,8 @@
     {%  for track in artist_tracks %}
         <li>{{ track }}</li>
         {% endfor %}
-
+    <h2>Genres</h2>
+    {%  for genre in artist_genres %}
+        <li>{{ genre }}</li>
+        {% endfor %}
 {% endblock %}
