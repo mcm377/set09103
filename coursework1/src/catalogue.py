@@ -39,7 +39,7 @@ def get_album(album):
 @app.route("/genres/")
 def genres():
     genres = sorted(['EDM', 'House', 'Progressive House', 'Grime', 'Electronic', 'Hip Hop', 'R&B', 'J-pop', 'J-rock', 'Symphonic Rock', 'Symphonic Metal', 'Pop Rock', 'UK Garage', 'British Hip Hop', 'Alternative Rock', 'Indie Rock', 'Post-Punk Revival', 'New Wave', 'Heartland Rock', 'Dubstep', 'Drum and Bass', 'Electro House', 'Electronic Rock', 'Rave', 'Liquid Funk', 'Jungle', 'Breakbeat', 'Soul'])
-    return render_template('genres.html')
+    return render_template('genres.html', genres = genres)
 
 @app.route("/tracks/")
 def tracks():
