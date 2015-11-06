@@ -2,6 +2,7 @@
 from flask import Flask, render_template
 
 app = Flask(__name__)
+albums = {'Avicii': ['True'], 'Bugzy Malone': ['Walk With Me'], 'Calvin Harris': ['I Created Disco', 'Ready For The Weekend', '18 Months', 'Motion'], 'Clean Bandit': ['New Eyes', '2010', 'OriginL ClassC', 'Live fron France'], 'Drake': ['Thank Me Later', 'Take Care', 'Nothing Was The Same'], 'Eri Kitamura': ['Re;Story', u'Shomei (証×明)'], 'Gorgon City': ['Sirens', 'The Crypt', 'Real'], 'Kano': ['Home Sweet Home', 'London Town', '140 Grime Street', 'Method To The Meadness'], 'The Killers': ['Hot Fuss', 'Sams Town', 'Day & Age', 'Battle Born'], 'Nero': ['Welcome Reality', 'Between II Worlds'], 'Rudimental': ['Home', 'We The Generation'], 'TRF': ['GRAVITY']}
 
 @app.route("/")
 def root():
@@ -9,7 +10,7 @@ def root():
 
 @app.route("/artists/")
 def artists():
-    artists = ['Avicii', 'Bugzy Malone', 'Calvin Harris', 'Clean Bandit', 'Drake', 'Eri Kitamura', 'Gorgon City', 'Kano', 'The Killers', 'Nero', 'Rudimental', 'TRF']
+    artists = albums.keys()
     return render_template('artists.html', artists = artists)
 
 @app.route("/artists/<artist>")

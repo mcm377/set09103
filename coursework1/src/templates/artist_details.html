@@ -1,5 +1,8 @@
 {% extends "header.html" %}
 {% block content %}
     <h1>{{ artist }}</h1>
-    {% include 'artists/%s.html' % artist %}
+    <h2>Albums</h2>
+    {%  for artist in artists %}
+        <li><a href="{{ url_for('get_artist', artist = artist)}}">{{ artist }}</a></li>
+        {% endfor %}
 {% endblock %}
