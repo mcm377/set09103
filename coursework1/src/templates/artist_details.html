@@ -3,6 +3,6 @@
     <h1>{{ artist }}</h1>
     <h2>Albums</h2>
     {%  for album in artist_albums %}
-        <li>{{ album.decode('utf8') }}</li>
+        <li>{{ album }}</li>
         {% endfor %}
 {% endblock %}
