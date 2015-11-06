@@ -18,7 +18,9 @@ def artists():
 
 @app.route("/artists/<artist>")
 def get_artist(artist):
-    return render_template('artist_details.html', artist = artist)
+    for artist in artist_albums:
+        albums = artist_albums[artist]
+    return render_template('artist_details.html', artist = artist, albums = albums)
 
 @app.route("/albums/")
 def albums():
