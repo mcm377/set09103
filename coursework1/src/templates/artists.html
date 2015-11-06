@@ -2,8 +2,8 @@
 {% block content %}
     <h1>Artists</h1>
     <ul>
-        {%  for key in artists %}
-        <li><a href="{{ url_for('get_artist', artist = key)}}">{{ artist }}</a></li>
+        {%  for artist in artists %}
+        <li><a href="{{ url_for('get_artist', artist = artist)}}">{{ artist }}</a></li>
         {% endfor %}
     </ul>
 {% endblock %}
