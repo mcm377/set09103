@@ -3,7 +3,7 @@
     <h1>{{ artist }}</h1>
     <h2>Albums</h2>
     {%  for album in artist_albums %}
-        <li>{{ album }}</li>
+        <li><a href="/artists/%s" % artist %>{{ album }}</a></li>
         {% endfor %}
     <h2>Tracks</h2>
     {%  for track in artist_tracks %}
