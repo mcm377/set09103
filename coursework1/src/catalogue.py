@@ -9,6 +9,8 @@ artist_tracks = {'Avicii': ['Wake Me Up', 'You Make Me', 'Hey Brother', 'Addicte
 
 artist_genres = {'Avicii': ['EDM', 'House', 'Progressive House'], 'Bugzy Malone': ['Grime'], 'Calvin Harris': ['EDM'], 'Clean Bandit': ['Electronic'], 'Drake': ['Hip Hop', 'R&B'], 'Eri Kitamura': ['J-rock', 'Symphonic Rock', 'Symphonic Metal', 'Pop Rock'], 'Gorgon City': ['House', 'Electronic', 'UK Garage'], 'Kano': ['Grime', 'British Hip Hop'], 'The Killers': ['Alternative Rock', 'Indie Rock', 'Post-Punk Revival', 'New Wave', 'Heartland Rock'], 'Nero': ['Dubstep', 'Drum and Bass', 'Electro House', 'Electronic Rock', 'Rave'], 'Rudimental': ['Drum and Bass', 'Liquid Funk', 'Jungle', 'Breakbeat', 'Soul'], 'TRF': ['J-pop', 'J-rock']}
 
+album_tracks = {'True', 'Walk With Me', 'I Created Disco', 'Ready For The Weekend', '18 Months', 'Motion', 'New Eyes', '2010', 'OriginL ClassC', 'Live fron France', 'Thank Me Later', 'Take Care', 'Nothing Was The Same', 'Re;Story', u'Shomei (証×明)', 'Sirens', 'The Crypt', 'Real', 'Home Sweet Home', 'London Town', '140 Grime Street', 'Method To The Meadness', 'Welcome Reality', 'Between II Worlds', 'Home', 'We The Generation', 'Hot Fuss', 'Sams Town', 'Day & Age', 'Battle Born', 'GRAVITY'}
+
 @app.route("/")
 def root():
     return render_template('index.html')
@@ -29,7 +31,10 @@ def albums():
 
 @app.route("/albums/<album>")
 def get_album(album):
-    return render_template('album_details.html', album = album)
+    for artist in artist_albums.keys():
+        if album in artist_albums[artist]:
+            album_artist = artist
+    return render_template('album_details.html', album = album, album_artist = album_artist, artist_genres = artist_genres[album_artist])
 
 @app.route("/genres/")
 def genres():
@@ -37,7 +42,7 @@ def genres():
 
 @app.route("/tracks/")
 def tracks():
-    return render_template('tracks.html')
+    return render_template('tracks.html', artist_tracks = artist_tracks)
 
 if __name__ == "__main__": 
     app.run(host='0.0.0.0', debug=True)

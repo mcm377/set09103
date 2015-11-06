@@ -1,5 +1,15 @@
 {% extends "header.html" %}
 {% block content %}
     <h1>{{ album }}</h1>
-    {% include 'albums/%s.html' % album.encode('utf8') %}
+    <h2>Artist</h2>
+    <li>{{ album_artist }}</li>
+    <h2>Tracks</h2>
+    {%  for track in album_tracks %}
+        <li>{{ track }}</li>
+        {% endfor %}
+    <h2>Genres</h2>
+    {%  for genre in artist_genres %}
+        <li>{{ genre }}</li>
+        {% endfor %}
+
 {% endblock %}
