@@ -3,6 +3,6 @@
     <h1>{{ artist }}</h1>
     <h2>>Albums</h2>
     {%  for artist in artist_albums %}
-        <li>>{% artist_albums[artist] %}</li>
+        <li>>{{ artist_albums[artist] }}</li>
         {% endfor %}
 {% endblock %}
