@@ -20,7 +20,7 @@ def artists():
 
 @app.route("/artists/<artist>")
 def get_artist(artist):
-    return render_template('artist_details.html', artist = artist, artist_albums = artist_albums[artist], artist_tracks = artist_tracks[artist])
+    return render_template('artist_details.html', artist = artist, artist_albums = artist_albums[artist], artist_tracks = artist_tracks[artist], artist_genres = artist_genres[artist])
 
 @app.route("/albums/")
 def albums():
