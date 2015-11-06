@@ -2,7 +2,7 @@
 {% block content %}
     <h1>{{ artist }}</h1>
     <h2>>Albums</h2>
-    {%  for album in albums %}
-        <li>>{{ album }}</li>
+    {%  for artist in artist_albums %}
+        <li>>{% artist_albums[artist] %}</li>
         {% endfor %}
 {% endblock %}
