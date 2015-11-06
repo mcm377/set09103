@@ -41,6 +41,16 @@ def genres():
     genres = sorted(['EDM', 'House', 'Progressive House', 'Grime', 'Electronic', 'Hip Hop', 'R&B', 'J-pop', 'J-rock', 'Symphonic Rock', 'Symphonic Metal', 'Pop Rock', 'UK Garage', 'British Hip Hop', 'Alternative Rock', 'Indie Rock', 'Post-Punk Revival', 'New Wave', 'Heartland Rock', 'Dubstep', 'Drum and Bass', 'Electro House', 'Electronic Rock', 'Rave', 'Liquid Funk', 'Jungle', 'Breakbeat', 'Soul'])
     return render_template('genres.html', genres = genres)
 
+@app.route("/genres/<genre>")
+def get_genre(genre):
+    genre_artists = []
+    genre_tracks = []
+    for artist in artist_genres.keys():
+        if genre in artist_genres[artist]:
+            genre_artists.append(artist)
+            genre_tracks.append(artist_tracks[artist])
+    return render_template('genre_details.html', genre = genre, genre_artists = genre_artists, genre_tracks = genre_tracks)
+
 @app.route("/tracks/")
 def tracks():
     return render_template('tracks.html', artist_tracks = artist_tracks)
