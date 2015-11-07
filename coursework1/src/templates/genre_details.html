@@ -6,11 +6,11 @@
         <li><a href="{{ url_for('get_artist', artist = album_artist)}}">{{ album_artist }}</a></li>
     {% endfor %}
     <h2>Tracks</h2>
-    {%  for track in album_tracks %}
+    {%  for track in genre_tracks %}
         <li>{{ track }}</li>
         {% endfor %}
     <h2>Albums</h2>
-    {%  for genre in artist_genres %}
+    {%  for genre in genre_albums %}
         <li>{{ genre }}</li>
         {% endfor %}
 
