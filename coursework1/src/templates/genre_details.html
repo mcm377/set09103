@@ -2,8 +2,8 @@
 {% block content %}
     <h1>{{ genre }}</h1>
     <h2>Artists</h2>
-    {%  for genre in genres %}
-        <li><a href="{{ url_for('get_artist', artist = album_artist)}}">{{ album_artist }}</a></li>
+    {%  for artist in genre_artists %}
+        <li><a href="{{ url_for('get_artist', artist = artist)}}">{{ artist }}</a></li>
     {% endfor %}
     <h2>Tracks</h2>
     {%  for track in genre_tracks %}
