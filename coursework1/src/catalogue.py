@@ -51,7 +51,6 @@ def get_genre(genre):
             genre_artists.append(artist)
             for album in artist_albums[artist]:
                 genre_albums.append(album)
-            genre_albums.append()
             for track in artist_tracks[artist]:
                 genre_tracks.append(track)
     return render_template('genre_details.html', genre = genre, genre_artists = genre_artists, genre_tracks = genre_tracks, genre_albums = genre_albums)
