@@ -34,7 +34,7 @@ def get_album(album):
     for artist in artist_albums.keys():
         if album in artist_albums[artist]:
             album_artist = artist
-    return render_template('album_details.html', album = album, album_artist = album_artist, artist_genres = artist_genres[album_artist])
+    return render_template('album_details.html', album = album, album_artist = album_artist, album_genres = artist_genres[album_artist])
 
 @app.route("/genres/")
 def genres():
@@ -62,7 +62,13 @@ def tracks():
 
 @app.route("/tracks/<track>")
 def get_track(track):
-    return render_template('track_details.html')
+    for artist in artist_tracks.keys():
+        if track in artist_tracks[artist]:
+            track_artist = artist
+    for album in album_tracks.keys():
+        if track in album_tracks[artist]:
+            track_album = album
+    return render_template('track_details.html', track =  track, track_artist = track_artist, track_album = track_album, track_genres = artist_genres[track_artist])
 
 if __name__ == "__main__": 
     app.run(host='0.0.0.0', debug=True)
