@@ -50,7 +50,7 @@ def get_genre(genre):
         if genre in artist_genres[artist]:
             genre_artists.append(artist)
             for album in artist_albums[artist]:
-                artist_albums.append(album)
+                genre_albums.append(album)
             genre_albums.append()
             for track in artist_tracks[artist]:
                 genre_tracks.append(track)
