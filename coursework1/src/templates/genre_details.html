@@ -10,8 +10,8 @@
         <li>{{ track }}</li>
         {% endfor %}
     <h2>Albums</h2>
-    {%  for genre in genre_albums %}
-        <li>{{ genre }}</li>
+    {%  for album in genre_albums %}
+        <li><a href="{{ url_for('get_album', album = album)}}">{{ album }}</a></li>
         {% endfor %}
 
 {% endblock %}

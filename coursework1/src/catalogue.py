@@ -45,12 +45,16 @@ def genres():
 def get_genre(genre):
     genre_artists = []
     genre_tracks = []
+    genre_albums = []
     for artist in artist_genres.keys():
         if genre in artist_genres[artist]:
             genre_artists.append(artist)
+            for album in artist_albums[artist]:
+                artist_albums.append(album)
+            genre_albums.append()
             for track in artist_tracks[artist]:
                 genre_tracks.append(track)
-    return render_template('genre_details.html', genre = genre, genre_artists = genre_artists, genre_tracks = genre_tracks)
+    return render_template('genre_details.html', genre = genre, genre_artists = genre_artists, genre_tracks = genre_tracks, genre_albums = genre_albums)
 
 @app.route("/tracks/")
 def tracks():
