@@ -7,7 +7,7 @@
     {% endfor %}
     <h2>Tracks</h2>
     {%  for track in genre_tracks %}
-        <li>{{ track }}</li>
+        <li><a href="{{ url_for('get_track', track = track)}}">{{ track }}</a></li>
         {% endfor %}
     <h2>Albums</h2>
     {%  for album in genre_albums %}
