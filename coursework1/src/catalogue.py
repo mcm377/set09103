@@ -66,7 +66,7 @@ def get_track(track):
         if track in artist_tracks[artist]:
             track_artist = artist
     for album in album_tracks.keys():
-        if track in album_tracks[artist]:
+        if track in album_tracks[album]:
             track_album = album
     return render_template('track_details.html', track =  track, track_artist = track_artist, track_album = track_album, track_genres = artist_genres[track_artist])
 
