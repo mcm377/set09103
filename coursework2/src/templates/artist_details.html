@@ -1,0 +1,16 @@
+{% extends "header.html" %}
+{% block content %}
+    <h1>{{ artist }}</h1>
+    <h2>Albums</h2>
+    {%  for album in artist_albums %}
+        <li><a href="{{ url_for('get_album', album = album)}}">{{ album }}</a></li>
+        {% endfor %}
+    <h2>Tracks</h2>
+    {%  for track in artist_tracks %}
+        <li><a href="{{ url_for('get_track', track = track)}}">{{ track }}</a></li>
+        {% endfor %}
+    <h2>Genres</h2>
+    {%  for genre in artist_genres %}
+        <li><a href="{{ url_for('get_genre', genre = genre)}}">{{ genre }}</a></li>
+        {% endfor %}
+{% endblock %}

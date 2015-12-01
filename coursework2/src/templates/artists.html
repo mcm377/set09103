@@ -1,0 +1,9 @@
+{% extends "header.html" %}
+{% block content %}
+    <h1>Artists</h1>
+    <ul>
+        {%  for artist in artists %}
+        <li><a href="{{ url_for('get_artist', artist = artist)}}">{{ artist }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
